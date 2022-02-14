@@ -1,0 +1,73 @@
+.button:hover{
+    color: rgb(252, 85, 85) !important;
+}
+.navbar-brand{
+    font-weight: bold;
+    color: rgb(255, 255, 255) !important;
+    margin-left: 20px;
+}
+.navbar{
+    border-radius: 10px;
+}
+.navbar-nav{
+    font-weight: 500;
+}
+.nav-link{
+    margin-right: 7px;
+}
+.col img{
+    margin-top: 50px;
+    width: 300px;
+}
+.col h3, p {
+    text-align: center;
+}
+.col h3{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;;
+}
+.col span {
+    font-weight: bold;
+    color: rgb(252, 85, 85);
+}
+
+
+
+@media (min-width: 992px) {
+    .button{
+        width: 100px;
+        border-radius: 20px !important;
+        font-weight: bold !important;
+        color: rgb(255, 255, 255) !important;
+    }
+    .navbar{
+        border-radius: 30px;
+    }
+    .nav-link:hover{
+        color: white !important;
+    }
+    .nav-link:hover::after{
+        display: block;
+        content: "";
+        border-bottom: 2px solid rgb(252, 85, 85);
+        margin-bottom: -10px;
+    }
+    .col img{
+        width: 650px;
+    }
+    .col h3, p {
+        margin-top: 150px;
+        text-align: left;
+    }
+    .col p {
+        font-size: 20px;
+    }
+    .col h3{
+        text-transform: uppercase;
+        font-size: 40px;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+}
